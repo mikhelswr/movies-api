@@ -1,5 +1,5 @@
 const express = require('express')
-const users = require('./api/users')
+const users = require('./src/users')
 const app = express()
 
 const PORT = process.env.PORT || 5050
