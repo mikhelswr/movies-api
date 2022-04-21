@@ -13,8 +13,8 @@ const fetchAllMovies = async (req, res, response) => {
 
         let page =
             pagination.text().replace(/\s\s+/g, "") != ""
-                ? $("#pagination .pages").text()
-                : "Page 1 of 1";
+                ? $("#pagination .pages").text().replace('Page ', '')
+                : "1 of 1";
 
         if (element.find(".content").length != 0) {
             element.find(".content").each((i, e) => {
