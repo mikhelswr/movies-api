@@ -11,7 +11,7 @@ app.use('/api', movies)
 const PORT = process.env.PORT || 5050
 app.listen(PORT, () => {
     try {
-        console.log(`Server is running in port ${PORT}`)
+        console.log(`Server is running in ${PORT}`)
     } catch (error) {
         throw err
     }

@@ -16,5 +16,6 @@ route.get("/series", Controller.getSeries);
 route.get("/movies/:page", Controller.getMoviesBypage);
 route.get("/series/:page", Controller.getSeriesBypage);
 route.get("/search", Controller.searchMovies);
+route.get("/detail/:key", Controller.detailMovie);
 
 module.exports = route
