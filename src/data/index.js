@@ -1,3 +1,3 @@
-const baseUrl = 'https://167.86.71.48/'
+const baseUrl = 'https://130.185.118.151/'
 
 module.exports = baseUrl
